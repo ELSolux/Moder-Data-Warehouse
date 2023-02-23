@@ -2,20 +2,20 @@
 # REQUIRED. Azure DevOps details used in "az devops configure" when devcontainer is built
 
 # Target Azure DevOps project where Azure Pipelines and Variable groups will be deploy
-AZDO_PROJECT=
+AZDO_PROJECT=MDW
 
 # Target Azure DevOps Organization of Azure DevOps project in this form `https://dev.azure.com/<organization>/`. (ei. https://dev.azure.com/my_azdo_org/)
-AZDO_ORGANIZATION_URL=
+AZDO_ORGANIZATION_URL=https://dev.azure.com/NETORGFT10490362.onmicrosoft.com/
 
 
 ###
 # REQUIRED. Environment variables for deployment script
 
 # Name of your imported github repo in this form `<my_github_handle>/<repo>`. (ei. "devlace/mdw-dataops-import")
-GITHUB_REPO=
+GITHUB_REPO=ELSolux/Moder-Data-Warehouse
 
 # a Github PAT token. Generate them [here](https://github.com/settings/tokens). This requires "repo" scope.
-GITHUB_PAT_TOKEN=
+GITHUB_PAT_TOKEN=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
 
 
 ###
@@ -26,15 +26,15 @@ GITHUB_PAT_TOKEN=
 # AZURE_LOCATION=
 
 # Azure subscription id to use to deploy resources. Default: default azure subscription.
-# AZURE_SUBSCRIPTION_ID=
+# AZURE_SUBSCRIPTION_ID=8045b823-5b90-4ff2-bbb2-5ca6670317af
 
 # String appended to all resource names to ensure uniqueness of azure resource names. Default: random five character string
-# DEPLOYMENT_ID=
+# DEPLOYMENT_ID=mdwpoc
 
 # git branch where Azure DevOps pipelines definitions are retrieved from. Default: main
-# AZDO_PIPELINES_BRANCH_NAME=
+# AZDO_PIPELINES_BRANCH_NAME=main
 
 # Password of the SQL Server instance. Default: random string
-# AZURESQL_SERVER_PASSWORD=
+# AZURESQL_SERVER_PASSWORD=Illumined11!!
 
 
